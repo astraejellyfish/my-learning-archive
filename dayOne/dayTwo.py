@@ -1,7 +1,7 @@
 #NOTE! if you're gonna run this make sure to multi coment first
 
 # assigning multiple variables in one line
-coffee = "latte"
+"""coffee = "latte"
 print (a); print (b); print (c)
 
 #unpacking a collection
@@ -44,11 +44,6 @@ y = int(2.8) # y will be 2
 z = int("3") # z will be 3
 print(x); print(y); print(z)
 
-#multiline strings
-a = """Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."""
-print(a)
-
 #strings are arrays
 a = "flins, pogi"
 print(a[0]) #first character
@@ -61,7 +56,7 @@ for x in "flins":
 #length
 a = "flins is handsome"
 print(len(a)) #output the length of the string is 17 characters
-
+"""
 #check string
 txt = "flins is pogi"
 if "pogi" in txt:
